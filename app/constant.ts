@@ -16,7 +16,7 @@ export const GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/";
 export enum Path {
   Home = "/",
   Chat = "/chat",
-  Settings = "/settings",
+  设置 = "/settings",
   NewChat = "/new-chat",
   Masks = "/masks",
   Auth = "/auth",
@@ -43,7 +43,7 @@ export enum StoreKey {
   Config = "app-config",
   Mask = "mask-store",
   Prompt = "prompt-store",
-  Update = "chat-update",
+  更新 = "chat-update",
   Sync = "sync",
 }
 
@@ -103,7 +103,7 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
+export const SUMMARIZE_MODEL = "gpt-3.5-turbo-0125";
 export const GEMINI_SUMMARIZE_MODEL = "gemini-pro";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
